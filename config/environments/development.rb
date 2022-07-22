@@ -73,4 +73,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.file_watcher = ActiveSupport::FileUpdateChecker
+
+  # Allow Web Console from Vagrant
+  config.web_console.whitelisted_ips = '10.0.2.2'
 end
