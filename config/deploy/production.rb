@@ -61,3 +61,5 @@ role :db, %w{deploy@67.205.128.127}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+set :branch, 'main'

@@ -3,6 +3,7 @@ lock "~> 3.17.0"
 
 set :application, "timetoanswer"
 set :repo_url, "git@github.com:Rodrigodebarros17/timetoanswer.git"
+set :ssh_options, { :forward_agent => true }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
