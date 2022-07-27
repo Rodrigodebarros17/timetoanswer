@@ -15,9 +15,6 @@ namespace :dev do
       show_spinner("Cadastrando o usuário padrão...") { %x(rails dev:add_default_user) }
       show_spinner("Cadastrando assuntos padrões...") { %x(rails dev:add_subjects) }
       show_spinner("Cadastrando perguntas e respostas...") { %x(rails dev:add_answers_and_questions) }
-    else
-      puts "Você não está em ambiente de desenvolvimento!"
-    end
   end
 
   desc "Adiciona o administrador padrão"
