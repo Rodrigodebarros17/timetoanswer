@@ -62,4 +62,4 @@ role :db, %w{deploy@67.205.128.127}
 #     # password: "please use keys"
 #   }
 
-set :branch, 'main'
+
