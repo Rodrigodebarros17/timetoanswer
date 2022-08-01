@@ -32,5 +32,7 @@ module TimeToAnswer
     config.generators.system_tests = nil
 
 
+    # Bootstrap Glyphicons Fix
+    config.assets.paths << Rails.root.join('node_modules','bootstrap','fonts')
   end
 end
